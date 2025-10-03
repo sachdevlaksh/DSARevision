@@ -1,0 +1,96 @@
+{
+  "preview": false,
+  "timeStamp": 1737026768679,
+  "path": "/content/documents/cmsdigitalcontent/badgeruledocument-all/badgeruledocument-clearance",
+  "id": "495098df-3b70-4375-8b73-b3390b518b86",
+  "message": "",
+  "type": "cmsdigitalcontent:BadgeDocument",
+  "event": "publish",
+  "dataSource": {
+    "pubwfLastModificationDate": 1737026763842,
+    "displayName": "badgeruledocument Clearance",
+    "name": "badgeruledocument-clearance",
+    "id": "495098df-3b70-4375-8b73-b3390b518b86",
+    "pubState": "published",
+    "type": "cmsdigitalcontent:BadgeDocument",
+    "locale": "en",
+    "pubwfCreationDate": 1718950563836,
+    "pubwfPublicationDate": 1737026768168,
+    "items": {
+      "hippostdpubwf:publicationDate": 1737026768168,
+      "hippostdpubwf:creationDate": 1718950563836,
+      "hippostdpubwf:lastModificationDate": 1737026763842,
+      "cmsdigitalcontent:badgeType": [
+        {
+          "type": "cmsdigitalcontent:BadgeCompound",
+          "items": {
+            "cmsdigitalcontent:isActive": true,
+            "cmsdigitalcontent:badgeValue": "Clearance",
+            "cmsdigitalcontent:BadgePages": {
+              "type": "cmsdigitalcontent:BadgePages",
+              "items": {
+                "cmsdigitalcontent:wishlist": false,
+                "cmsdigitalcontent:recommendations": false,
+                "cmsdigitalcontent:pdp": false,
+                "cmsdigitalcontent:checkout": false,
+                "cmsdigitalcontent:kwsSearch": false,
+                "cmsdigitalcontent:saveForLater": false,
+                "cmsdigitalcontent:homePage": false,
+                "cmsdigitalcontent:cart": false,
+                "cmsdigitalcontent:collectionPages": true,
+                "cmsdigitalcontent:visualSearch": false,
+                "cmsdigitalcontent:orders": false,
+                "cmsdigitalcontent:kws": false
+              }
+            },
+            "cmsdigitalcontent:priority": "3",
+            "cmsdigitalcontent:categoryOfBadge": "5",
+            "cmsdigitalcontent:badgeKey": "clearance",
+            "cmsdigitalcontent:hideBadgesOnCollection": [
+              {
+                "type": "cmsdigitalcontent:PagePicker",
+                "items": {
+                  "cmsdigitalcontent:pagebase": [
+                    "08b8367b-635e-4667-ad96-87aea7294c7c"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "cmsdigitalcontent:BadgeCompound",
+          "items": {
+            "cmsdigitalcontent:isActive": true,
+            "cmsdigitalcontent:badgeValue": "Clearance",
+            "cmsdigitalcontent:BadgePages": {
+              "type": "cmsdigitalcontent:BadgePages",
+              "items": {
+                "cmsdigitalcontent:wishlist": false,
+                "cmsdigitalcontent:recommendations": false,
+                "cmsdigitalcontent:pdp": false,
+                "cmsdigitalcontent:checkout": false,
+                "cmsdigitalcontent:kwsSearch": false,
+                "cmsdigitalcontent:saveForLater": false,
+                "cmsdigitalcontent:homePage": false,
+                "cmsdigitalcontent:cart": false,
+                "cmsdigitalcontent:collectionPages": true,
+                "cmsdigitalcontent:visualSearch": false,
+                "cmsdigitalcontent:orders": false,
+                "cmsdigitalcontent:kws": false
+              }
+            },
+            "cmsdigitalcontent:priority": "6",
+            "cmsdigitalcontent:categoryOfBadge": "5",
+            "cmsdigitalcontent:badgeKey": "intl:clearance",
+            "cmsdigitalcontent:hideBadgesOnCollection": [
+              {
+                "type": "cmsdigitalcontent:PagePicker"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

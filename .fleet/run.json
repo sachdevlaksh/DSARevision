@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "go",
+            "name": "Go configuration",
+            "goExecPath": "~/go/src/examples-master/practice/problem2.go",
+            "buildParams": [],
+        },
+
+    ]
+}

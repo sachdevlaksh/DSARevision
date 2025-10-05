@@ -1085,20 +1085,20 @@ func averageWaitingTime(cus [][]int) float64 {
 
 }
 
-func minOperations(logs []string) int {
-	count := 0
-	for _, log := range logs {
-		switch log {
-		case "../":
-			count--
-		case "./":
-		default:
-			count++
-
-		}
-	}
-	return count
-}
+//func minOperations(logs []string) int {
+//	count := 0
+//	for _, log := range logs {
+//		switch log {
+//		case "../":
+//			count--
+//		case "./":
+//		default:
+//			count++
+//
+//		}
+//	}
+//	return count
+//}
 
 func reverseParentheses(s string) string {
 

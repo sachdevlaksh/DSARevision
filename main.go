@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/go-kit/examples/practice/Pattern19/LC417"
+//	"github.com/go-kit/examples/practice/Pattern19/LC417"
 
 	//	"github.com/go-kit/examples/practice/WC470/Q1"
 
@@ -14,6 +14,7 @@ import (
 
 	//	"github.com/go-kit/examples/practice/LC1518"
 	//	lc2221 "github.com/go-kit/examples/practice/LC2221"
+	lc1448 "github.com/go-kit/examples/practice/LC1488"
 )
 
 //q2 "github.com/go-kit/examples/practice/WC469/Q2"
@@ -31,13 +32,13 @@ func main() {
 	//fmt.Println(LC77.Combine(4,2))
 	//fmt.Println(LC78.Subsets([]int{1,2,3}))
 	//	lc31.NextPermutation([]int{1,2,3})
-		a := [][]int{
-				{1,2,2,3,5},
-				{3,2,3,4,4},
-				{2,4,5,3,1},
-				{6,7,1,4,5},
-				{5,1,1,2,4},
-			}
+//		a := [][]int{
+//				{1,2,2,3,5},
+//				{3,2,3,4,4},
+//				{2,4,5,3,1},
+//				{6,7,1,4,5},
+//				{5,1,1,2,4},
+//			}
 	//	lc120.MinimumTotal(a)
 	//	q1.DecimalRepresentation(6)
 	//	fmt.Println(q2.SplitArray([]int{1,3,5,5,4,2}))
@@ -47,6 +48,7 @@ func main() {
 	//	fmt.Print(LC3100.MaxBottlesDrunk(13,6))
 //	fmt.Println(LC20.IsValid("([])"))
 //	fmt.Print(Q1.AlternatingSum([]int{}))
-	fmt.Println(LC417.PacificAtlantic(a))
+//	fmt.Println(LC417.PacificAtlantic(a))
+	fmt.Println(lc1448.AvoidFlood([]int{69,0,0,0,69}))
 
 }

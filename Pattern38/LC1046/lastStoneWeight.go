@@ -4,7 +4,7 @@ import "container/heap"
 
 func lastStoneWeight(stones []int) int {
 
-	maxHeap := MaxHeap2{}
+	maxHeap := MaxHeap{}
 	heap.Init(&maxHeap)
 	for _, val := range stones {
 		heap.Push(&maxHeap, val)
@@ -20,29 +20,29 @@ func lastStoneWeight(stones []int) int {
 	return heap.Pop(&maxHeap).(int)
 }
 
-type MaxHeap2 []int
+type MaxHeap []int
 
-func (m MaxHeap2) Len() int {
+func (m MaxHeap) Len() int {
 
 	return len(m)
 }
 
-func (m MaxHeap2) Less(i, j int) bool {
+func (m MaxHeap) Less(i, j int) bool {
 
 	return m[i] > m[j]
 }
 
-func (m MaxHeap2) Swap(i, j int) {
+func (m MaxHeap) Swap(i, j int) {
 
 	m[i], m[j] = m[j], m[i]
 }
 
-func (m *MaxHeap2) Push(x any) {
+func (m *MaxHeap) Push(x any) {
 
 	*m = append(*m, x.(int))
 }
 
-func (m *MaxHeap2) Pop() any {
+func (m *MaxHeap) Pop() any {
 
 	length := m.Len()
 	old := *m

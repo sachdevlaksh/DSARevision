@@ -2,7 +2,9 @@ package main
 
 import (
 	"fmt"
-//	"github.com/go-kit/examples/practice/Pattern19/LC417"
+	"github.com/go-kit/examples/practice/LC3147"
+
+	//	"github.com/go-kit/examples/practice/Pattern19/LC417"
 
 	//	"github.com/go-kit/examples/practice/WC470/Q1"
 
@@ -14,7 +16,9 @@ import (
 
 	//	"github.com/go-kit/examples/practice/LC1518"
 	//	lc2221 "github.com/go-kit/examples/practice/LC2221"
-	lc1448 "github.com/go-kit/examples/practice/LC1488"
+//	lc1448 "github.com/go-kit/examples/practice/LC1488"
+//lc3494 "github.com/go-kit/examples/practice/LC3494"
+
 )
 
 //q2 "github.com/go-kit/examples/practice/WC469/Q2"
@@ -49,6 +53,8 @@ func main() {
 //	fmt.Println(LC20.IsValid("([])"))
 //	fmt.Print(Q1.AlternatingSum([]int{}))
 //	fmt.Println(LC417.PacificAtlantic(a))
-	fmt.Println(lc1448.AvoidFlood([]int{69,0,0,0,69}))
+//	fmt.Println(lc1448.AvoidFlood([]int{69,0,0,0,69}))
+//	fmt.Println(lc3494.MinTime([]int{1,5,2,4}, []int{5,1,4,2}))
+	fmt.Println(LC3147.MaximumEnergy([]int{5,2,-10,-5,1}, 3))
 
 }

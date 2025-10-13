@@ -2,9 +2,6 @@ package LC3494
 
 import "math"
 
-package main
-
-import "math"
 type Solution struct{}
 
 func (s *Solution) minTime(skill []int, mana []int) int64 {
@@ -33,28 +30,31 @@ func MinTime(skill []int, mana []int) int64 {
 
 	n := len(skill)
 	m := len(mana)
+	prev := make([]int64, n)
 	var out int64
-	for i := 0; i < n; i++ {
-		out += int64(skill[0] * mana[i])
-	}
-
+	prev[0]= int64(mana[0])
 	for i := 1; i < n; i++ {
+		prev[i] = prev[i-1]+int64(skill[i] * mana[0])
+	}
+	out = prev[n-1]
+	for i := 1; i < m; i++ {
 
+		sum := int64(0)
 		l := int64(0)
 		r := out
-		sum := int64(0)
+
 		for l < r {
-			prev := make([]int64, n)
+
 			mid := (l + r) / 2
 
-			for j := 0; i < m-1; j++ {
-				temp := int64(skill[i] * mana[j])
-				if out < temp {
+			for j := 0; j < n-2; j++ {
+				temp := mid + int64(skill[j] * mana[i])
+				if prev[i+1] < temp {
 					l = mid + 1
-				} else {
+					continue
+				} else if prev[i+1] > temp {
 					prev[i] = temp
 					sum += temp
-					r = mid
 				}
 			}
 		}

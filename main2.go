@@ -2,7 +2,15 @@ package main
 
 import (
 	"fmt"
-	"github.com/go-kit/examples/practice/LC3147"
+	"github.com/go-kit/examples/practice/Patter28/LC53"
+
+	//	"github.com/go-kit/examples/practice/Pattern83/LC152"
+
+	//	"github.com/go-kit/examples/practice/Pattern80/LC66"
+
+	//	"github.com/go-kit/examples/practice/Pattern32/LC1143"
+
+	//	"github.com/go-kit/examples/practice/LC3147"
 
 	//	"github.com/go-kit/examples/practice/Pattern19/LC417"
 
@@ -55,6 +63,9 @@ func main() {
 //	fmt.Println(LC417.PacificAtlantic(a))
 //	fmt.Println(lc1448.AvoidFlood([]int{69,0,0,0,69}))
 //	fmt.Println(lc3494.MinTime([]int{1,5,2,4}, []int{5,1,4,2}))
-	fmt.Println(LC3147.MaximumEnergy([]int{5,2,-10,-5,1}, 3))
-
+//	fmt.Println(LC3147.MaximumEnergy([]int{5,2,-10,-5,1}, 3))
+//fmt.Println(LC1143.LongestCommonSubsequence("abcde", "ace"))
+//	fmt.Println(LC66.PlusOne([]int{1,2,3,4}))
+//	fmt.Println(LC152.MaxProduct([]int{-2,0,-1}))
+	fmt.Println(LC53.MaxSubArrayPrint([]int{-2,-3,4,-1,-2,1,5,-3}))
 }

@@ -14,10 +14,6 @@ func solve(board [][]byte) {
 
 		board[r][c] = 'T'
 
-		dfs(r+1, c)
-		dfs(r-1, c)
-		dfs(r, c+1)
-		dfs(r, c-1)
 
 	}
 	for i := 0; i < rows; i++ {

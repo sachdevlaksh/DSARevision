@@ -1,9 +1,11 @@
 package main
 
 import (
-	"fmt"
-//	"github.com/go-kit/examples/practice/Patter28/LC53"
-	"github.com/go-kit/examples/practice/Pattern24/LC743"
+//	"fmt"
+//	"github.com/go-kit/examples/practice/Pattern76/LC189"
+
+	//	"github.com/go-kit/examples/practice/Patter28/LC53"
+//	"github.com/go-kit/examples/practice/Pattern24/LC743"
 
 	//	"github.com/go-kit/examples/practice/Pattern83/LC152"
 
@@ -28,6 +30,8 @@ import (
 //	lc1448 "github.com/go-kit/examples/practice/LC1488"
 //lc3494 "github.com/go-kit/examples/practice/LC3494"
 
+	"fmt"
+	"github.com/go-kit/examples/practice/Pattern90/LC459"
 )
 
 //q2 "github.com/go-kit/examples/practice/WC469/Q2"
@@ -45,11 +49,11 @@ func main() {
 	//fmt.Println(LC77.Combine(4,2))
 	//fmt.Println(LC78.Subsets([]int{1,2,3}))
 	//	lc31.NextPermutation([]int{1,2,3})
-		a := [][]int{
-				{2,1,1},
-				{2,3,1},
-				{3,4,1},
-			}
+//		a := [][]int{
+//				{2,1,1},
+//				{2,3,1},
+//				{3,4,1},
+//			}
 	//	lc120.MinimumTotal(a)
 	//	q1.DecimalRepresentation(6)
 	//	fmt.Println(q2.SplitArray([]int{1,3,5,5,4,2}))
@@ -67,5 +71,7 @@ func main() {
 //	fmt.Println(LC66.PlusOne([]int{1,2,3,4}))
 //	fmt.Println(LC152.MaxProduct([]int{-2,0,-1}))
 //	fmt.Println(LC53.MaxSubArrayPrint([]int{-2,-3,4,-1,-2,1,5,-3}))
-fmt.Println(LC743.NetworkDelayTime(a,4,2))
+//fmt.Println(LC743.NetworkDelayTime(a,4,2))
+//LC189.RotateArray([]int{1,2,3,4,5,6}, 1)
+	fmt.Println(LC459.Containers("bbacdebb", "acd"))
 }

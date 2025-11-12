@@ -1,36 +1,33 @@
 package LC443
 
-import (
-	"fmt"
-	"strconv"
-)
+import "fmt"
 
 func Compress(chars []byte) int {
-	charMap := make(map[byte]int)
-	for _, char := range chars {
-		if _, ok := charMap[char]; !ok {
-			charMap[char] = 1
-		} else {
-			charMap[char] += 1
+	n := len(chars)
+	if n == 0 {
+        return 0
+    }
+
+	read, write := 0,0
+
+
+	for read < n{
+		count := 0
+		char := chars[read]
+		for read < n && chars[read] == char{
+			read++
+			count++
 		}
-	}
-	outLen := 0
-	charOut := make([]byte, 0)
-	for k, v := range charMap {
-		outLen += 1
-		charOut = append(charOut, k)
-		if v != 1 {
-			if v < 10 {
-				outLen += v
-				charOut = append(charOut, byte(v))
-			}else{
-				for _, ch := range []byte(strconv.Itoa(v)) {
-					charOut = append(charOut, byte(ch))
-				}
+		chars[write]=char
+		write++
+
+
+		if count > 1{
+			for _, digit := range []byte(fmt.Sprintf("%d", count)){
+				chars[write]= digit
+				write++
 			}
 		}
 	}
-	chars = append(charOut,chars ...)
-	fmt.Println(string(charOut))
-	return outLen
+	return write
 }

@@ -32,8 +32,9 @@ import (
 
 //	"fmt"
 //	"github.com/go-kit/examples/practice/Pattern90/LC459"
-	"fmt"
-	"github.com/go-kit/examples/practice/Pattern22/LC207"
+//	"fmt"
+//	"github.com/go-kit/examples/practice/Pattern22/LC207"
+	"github.com/go-kit/examples/practice/Pattern4/LC443"
 )
 
 //q2 "github.com/go-kit/examples/practice/WC469/Q2"
@@ -45,7 +46,7 @@ func main() {
 	//lc151.ReverseWords("  hello world  ")
 	//lc334.IncreasingTriplet([]int{5,4,3,2,1})
 	//lc1493.LongestSubarray([]int{1,0,1,0,0,0,1,1,0,1,1,1,1,1})
-	//lc443.Compress([]byte{'a','b','b','b','b','b','b','b','b','b','b','b','b'})
+	LC443.Compress([]byte{'a','b','b','b','b','b','b','b','b','b','b','b','b', 'c','c','c'})
 	//	lc16.ThreeSumClosest([]int{10,20,30,40,50,60,70,80,90},1)
 	//	LC17.LetterCombinations("23")
 	//fmt.Println(LC77.Combine(4,2))
@@ -56,15 +57,15 @@ func main() {
 //				{2,3,1},
 //				{3,4,1},
 //			}
-			b := [][]int{
-						{1,0},
-						{2,0},
-						{3,1},
-						{4,2},
-						{5,3},
-						{5,4},
-
-				}
+//			b := [][]int{
+//						{1,0},
+//						{2,0},
+//						{3,1},
+//						{4,2},
+//						{5,3},
+//						{5,4},
+//
+//				}
 	//	lc120.MinimumTotal(a)
 	//	q1.DecimalRepresentation(6)
 	//	fmt.Println(q2.SplitArray([]int{1,3,5,5,4,2}))
@@ -85,5 +86,5 @@ func main() {
 //fmt.Println(LC743.NetworkDelayTime(a,4,2))
 //LC189.RotateArray([]int{1,2,3,4,5,6}, 1)
 //	fmt.Println(LC459.Containers("bbacdebb", "acd"))
-	fmt.Println(LC207.CanFinish(6, b))
+//	fmt.Println(LC207.CanFinish(6, b))
 }

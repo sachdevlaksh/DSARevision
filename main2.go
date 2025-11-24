@@ -34,7 +34,8 @@ import (
 //	"github.com/go-kit/examples/practice/Pattern90/LC459"
 //	"fmt"
 //	"github.com/go-kit/examples/practice/Pattern22/LC207"
-	"github.com/go-kit/examples/practice/Pattern4/LC443"
+	//"github.com/go-kit/examples/practice/Pattern4/LC443"
+	"github.com/go-kit/examples/practice/Pattern17/LC235"
 )
 
 //q2 "github.com/go-kit/examples/practice/WC469/Q2"
@@ -46,7 +47,7 @@ func main() {
 	//lc151.ReverseWords("  hello world  ")
 	//lc334.IncreasingTriplet([]int{5,4,3,2,1})
 	//lc1493.LongestSubarray([]int{1,0,1,0,0,0,1,1,0,1,1,1,1,1})
-	LC443.Compress([]byte{'a','b','b','b','b','b','b','b','b','b','b','b','b', 'c','c','c'})
+	//LC443.Compress([]byte{'a','b','b','b','b','b','b','b','b','b','b','b','b', 'c','c','c'})
 	//	lc16.ThreeSumClosest([]int{10,20,30,40,50,60,70,80,90},1)
 	//	LC17.LetterCombinations("23")
 	//fmt.Println(LC77.Combine(4,2))
@@ -87,4 +88,6 @@ func main() {
 //LC189.RotateArray([]int{1,2,3,4,5,6}, 1)
 //	fmt.Println(LC459.Containers("bbacdebb", "acd"))
 //	fmt.Println(LC207.CanFinish(6, b))
+
+	LC235.MinLengthAfterRemovals("aabbaaaabbb")
 }

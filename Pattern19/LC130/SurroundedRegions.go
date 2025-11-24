@@ -11,10 +11,7 @@ func solve(board [][]byte) {
 		if r >= rows || c >= cols || r < 0 || c < 0 || board[r][c] != 'O' {
 			return
 		}
-
 		board[r][c] = 'T'
-
-
 	}
 	for i := 0; i < rows; i++ {
 		if board[i][0] == 'O' {

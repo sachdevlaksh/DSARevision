@@ -2,7 +2,7 @@ package LC120
 
 import "fmt"
 
-func minimumTotal(triangle [][]int) int {
+func minimumTotalCopy(triangle [][]int) int {
 	count := 0
 	return getSum(triangle, 0, 0,count)
 }

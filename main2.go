@@ -35,7 +35,9 @@ import (
 //	"fmt"
 //	"github.com/go-kit/examples/practice/Pattern22/LC207"
 	//"github.com/go-kit/examples/practice/Pattern4/LC443"
-	"github.com/go-kit/examples/practice/Pattern17/LC235"
+//	"github.com/go-kit/examples/practice/Pattern17/LC235"
+//"github.com/go-kit/examples/practice/Pattern85/LC242"
+"github.com/go-kit/examples/practice/Pattern4/LC75"
 )
 
 //q2 "github.com/go-kit/examples/practice/WC469/Q2"
@@ -89,5 +91,9 @@ func main() {
 //	fmt.Println(LC459.Containers("bbacdebb", "acd"))
 //	fmt.Println(LC207.CanFinish(6, b))
 
-	LC235.MinLengthAfterRemovals("aabbaaaabbb")
+//	LC235.MinLengthAfterRemovals("aabbaaaabbb")
+//	LC242.IsAnagram("","")
+	LC75.SortColors([]int{2,0,1})
+
+
 }

@@ -1,6 +1,6 @@
 package LC75
 
-func sortColors(nums []int) {
+func SortColors(nums []int) {
 
 	left, mid, right := 0, 0, len(nums)-1
 

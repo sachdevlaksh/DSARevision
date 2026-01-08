@@ -1,11 +1,11 @@
 package main
 
 import (
-//	"fmt"
-//	"github.com/go-kit/examples/practice/Pattern76/LC189"
+	//	"fmt"
+	//	"github.com/go-kit/examples/practice/Pattern76/LC189"
 
 	//	"github.com/go-kit/examples/practice/Patter28/LC53"
-//	"github.com/go-kit/examples/practice/Pattern24/LC743"
+	//	"github.com/go-kit/examples/practice/Pattern24/LC743"
 
 	//	"github.com/go-kit/examples/practice/Pattern83/LC152"
 
@@ -27,27 +27,33 @@ import (
 
 	//	"github.com/go-kit/examples/practice/LC1518"
 	//	lc2221 "github.com/go-kit/examples/practice/LC2221"
-//	lc1448 "github.com/go-kit/examples/practice/LC1488"
-//lc3494 "github.com/go-kit/examples/practice/LC3494"
+	//	lc1448 "github.com/go-kit/examples/practice/LC1488"
+	//lc3494 "github.com/go-kit/examples/practice/LC3494"
 
-//	"fmt"
-//	"github.com/go-kit/examples/practice/Pattern90/LC459"
-//	"fmt"
-//	"github.com/go-kit/examples/practice/Pattern22/LC207"
+	//	"fmt"
+	//	"github.com/go-kit/examples/practice/Pattern90/LC459"
+	//	"fmt"
+	//	"github.com/go-kit/examples/practice/Pattern22/LC207"
 	//"github.com/go-kit/examples/practice/Pattern4/LC443"
-//	"github.com/go-kit/examples/practice/Pattern17/LC235"
-//"github.com/go-kit/examples/practice/Pattern85/LC242"
-//"github.com/go-kit/examples/practice/Pattern4/LC75"
+	//	"github.com/go-kit/examples/practice/Pattern17/LC235"
+	//"github.com/go-kit/examples/practice/Pattern85/LC242"
+	//"github.com/go-kit/examples/practice/Pattern4/LC75"
+	//	"fmt"
+	//	"github.com/go-kit/examples/practice/DailyQuestion/LC2483"
+	//	"github.com/go-kit/examples/practice/LC756"
+
+	//	"github.com/go-kit/examples/practice/Pattern10/LC862"
+
+	//	"github.com/go-kit/examples/practice/Pattern9/LC1658"
+	//	"github.com/go-kit/examples/practice/Pattern9/LC3"
 	"fmt"
-	"github.com/go-kit/examples/practice/Pattern9/LC1658"
-//	"github.com/go-kit/examples/practice/Pattern9/LC3"
+	"github.com/go-kit/examples/practice/Pattern19/LC841"
 )
 
 //q2 "github.com/go-kit/examples/practice/WC469/Q2"
 
 //lc120 "github.com/go-kit/examples/practice/LC120"
 //	lc 2221 "github.com/go-kit/examples/practice/LC2221"
-
 
 func main() {
 	//lc151.ReverseWords("  hello world  ")
@@ -59,20 +65,20 @@ func main() {
 	//fmt.Println(LC77.Combine(4,2))
 	//fmt.Println(LC78.Subsets([]int{1,2,3}))
 	//	lc31.NextPermutation([]int{1,2,3})
-//		a := [][]int{
-//				{2,1,1},
-//				{2,3,1},
-//				{3,4,1},
-//			}
-//			b := [][]int{
-//						{1,0},
-//						{2,0},
-//						{3,1},
-//						{4,2},
-//						{5,3},
-//						{5,4},
-//
-//				}
+	//		a := [][]int{
+	//				{2,1,1},
+	//				{2,3,1},
+	//				{3,4,1},
+	//			}
+	//			b := [][]int{
+	//						{1,0},
+	//						{2,0},
+	//						{3,1},
+	//						{4,2},
+	//						{5,3},
+	//						{5,4},
+	//
+	//				}
 	//	lc120.MinimumTotal(a)
 	//	q1.DecimalRepresentation(6)
 	//	fmt.Println(q2.SplitArray([]int{1,3,5,5,4,2}))
@@ -80,26 +86,35 @@ func main() {
 	//	fmt.Println(LC1518.NumWaterBottles(15,4))
 	//	fmt.Print(LC46.Permute([]int{1,2,3}))
 	//	fmt.Print(LC3100.MaxBottlesDrunk(13,6))
-//	fmt.Println(LC20.IsValid("([])"))
-//	fmt.Print(Q1.AlternatingSum([]int{}))
-//	fmt.Println(LC417.PacificAtlantic(a))
-//	fmt.Println(lc1448.AvoidFlood([]int{69,0,0,0,69}))
-//	fmt.Println(lc3494.MinTime([]int{1,5,2,4}, []int{5,1,4,2}))
-//	fmt.Println(LC3147.MaximumEnergy([]int{5,2,-10,-5,1}, 3))
-//fmt.Println(LC1143.LongestCommonSubsequence("abcde", "ace"))
-//	fmt.Println(LC66.PlusOne([]int{1,2,3,4}))
-//	fmt.Println(LC152.MaxProduct([]int{-2,0,-1}))
-//	fmt.Println(LC53.MaxSubArrayPrint([]int{-2,-3,4,-1,-2,1,5,-3}))
-//fmt.Println(LC743.NetworkDelayTime(a,4,2))
-//LC189.RotateArray([]int{1,2,3,4,5,6}, 1)
-//	fmt.Println(LC459.Containers("bbacdebb", "acd"))
-//	fmt.Println(LC207.CanFinish(6, b))
+	//	fmt.Println(LC20.IsValid("([])"))
+	//	fmt.Print(Q1.AlternatingSum([]int{}))
+	//	fmt.Println(LC417.PacificAtlantic(a))
+	//	fmt.Println(lc1448.AvoidFlood([]int{69,0,0,0,69}))
+	//	fmt.Println(lc3494.MinTime([]int{1,5,2,4}, []int{5,1,4,2}))
+	//	fmt.Println(LC3147.MaximumEnergy([]int{5,2,-10,-5,1}, 3))
+	//fmt.Println(LC1143.LongestCommonSubsequence("abcde", "ace"))
+	//	fmt.Println(LC66.PlusOne([]int{1,2,3,4}))
+	//	fmt.Println(LC152.MaxProduct([]int{-2,0,-1}))
+	//	fmt.Println(LC53.MaxSubArrayPrint([]int{-2,-3,4,-1,-2,1,5,-3}))
+	//fmt.Println(LC743.NetworkDelayTime(a,4,2))
+	//LC189.RotateArray([]int{1,2,3,4,5,6}, 1)
+	//	fmt.Println(LC459.Containers("bbacdebb", "acd"))
+	//	fmt.Println(LC207.CanFinish(6, b))
 
-//	LC235.MinLengthAfterRemovals("aabbaaaabbb")
-//	LC242.IsAnagram("","")
-//	LC75.SortColors([]int{2,0,1})
+	//	LC235.MinLengthAfterRemovals("aabbaaaabbb")
+	//	LC242.IsAnagram("","")
+	//	LC75.SortColors([]int{2,0,1})
 	//LC3.LengthOfLongestSubstring("abcabcbb")
-	fmt.Print(LC1658.MinOperations([]int{3,2,20,1,1,3}, 10))
-
+	//	fmt.Print(LC1658.MinOperations([]int{3,2,20,1,1,3}, 10))
+	//	fmt.Print(LC862.ShortestSubarray([]int{84,-37,32,40,95}, 167))
+	//	fmt.Print(LC2483.MaximumScore([]int{-7,-5,3}))
+	//	LC756.PyramidTransition("AAAA", []string{"AAB","AAC","BCD","BBE","DEF"})
+	b := [][]int{
+		{1,3},
+		{3,0,1},
+		{2},
+		{0},
+	}
+	fmt.Println(LC841.CanVisitAllRooms(b))
 
 }

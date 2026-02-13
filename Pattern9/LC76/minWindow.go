@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #76: Minimum Window Substring
+Difficulty: Hard
+
+Given two strings s and t of lengths m and n respectively, return the minimum window substring of s such that every character in t is included in the window.
+*/
+
 package LC76
 
 import "math"

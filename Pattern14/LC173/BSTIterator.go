@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #173: Binary Search Tree Iterator
+Difficulty: Medium
+
+Implement the BSTIterator class that represents an iterator over the in-order traversal of a binary search tree.
+*/
+
 package LC173
 
 /**

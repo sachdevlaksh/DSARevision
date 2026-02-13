@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #2221: Find Triangular Sum of An Array
+Difficulty: Medium
+
+You are given a 0-indexed array nums of size n consisting of positive integers. You are also given a 0-indexed 2D array triangles where triangles[i] = [indexi_1, indexi_2, indexi_3].
+*/
+
 package LC2221
 
 func triangularSum(nums []int) int {

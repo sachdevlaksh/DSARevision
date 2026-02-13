@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #189: Rotate Array
+Difficulty: Medium
+
+Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
+*/
+
 package LC189
 
 import "fmt"

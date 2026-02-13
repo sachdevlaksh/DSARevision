@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #61: Rotate List
+Difficulty: Medium
+
+Given the head of a linked list, rotate the list to the right by k places.
+*/
+
 package LC61
 
 type ListNode struct {

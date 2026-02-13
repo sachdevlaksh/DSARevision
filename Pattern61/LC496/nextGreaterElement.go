@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #496: Next Greater Element I
+Difficulty: Easy
+
+The next greater element of some element x in an array is the first greater element to its right. You are given two distinct 0-indexed integer arrays nums1 and nums2, where nums1 is a subset of nums2.
+*/
+
 package LC496
 
 func nextGreaterElement(nums1 []int, nums2 []int) []int {

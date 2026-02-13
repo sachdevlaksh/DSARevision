@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #80: Remove Duplicates from Sorted Array II
+Difficulty: Medium
+
+Given an integer array nums sorted in non-decreasing order, remove some duplicates in-place such that each unique element appears at most twice.
+*/
+
 package LC80
 
 func removeDuplicates(nums []int) int {

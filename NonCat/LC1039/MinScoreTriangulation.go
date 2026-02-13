@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #1039: Minimum Score Triangulation of Polygon
+Difficulty: Medium
+
+You have a convex n-gon (a polygon with n sides where all angles are less than 180 degrees). You triangulate the polygon into n - 2 triangles. For each triangle, the value is the product of the labels of the vertices.
+*/
+
 package LC1039
 
 import "math"

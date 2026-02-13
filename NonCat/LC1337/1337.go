@@ -1,3 +1,11 @@
+/*
+LeetCode Problem #1337
+Title: Problem 1337
+Difficulty: Unknown
+
+LeetCode Problem #1337
+*/
+
 package LC1337
 
 import (

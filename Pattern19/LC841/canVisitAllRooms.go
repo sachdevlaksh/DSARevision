@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #841: Keys and Rooms
+Difficulty: Medium
+
+There are n rooms labeled from 0 to n - 1, and all the rooms are locked except for room 0. Your goal is to visit all the rooms. However, you cannot enter a locked room without having its key.
+*/
+
 package LC841
 
 func CanVisitAllRooms(rooms [][]int) bool {

@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #1339: Maximum Product of Splitted Binary Tree
+Difficulty: Medium
+
+Given the root of a binary tree, split the binary tree into two subtrees by removing one edge such that the product of the sums of the subtrees is maximized.
+*/
+
 package LC1339
 
 type TreeNode struct {

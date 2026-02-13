@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #1838: Frequency of the Most Frequent Element
+Difficulty: Medium
+
+The frequency of an element is the number of times it appears in an array. You are given an integer array nums and an integer k. In one operation, you can choose an element of nums and increment it by 1.
+*/
+
 package LC1838
 
 import (

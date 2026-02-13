@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #40: Combination Sum II
+Difficulty: Medium
+
+Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sum to target.
+*/
+
 package LC40
 
 import "slices"

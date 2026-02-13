@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #21: Merge Two Sorted Lists
+Difficulty: Easy
+
+You are given the heads of two sorted linked lists list1 and list2. Merge the two lists into one sorted list and return the head of the merged list.
+*/
+
 package LC21
 type ListNode struct {
      Val int

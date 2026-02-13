@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #459: Repeated Substring Pattern
+Difficulty: Easy
+
+Given a string s, check if it can be constructed by taking a substring of it and adding multiple copies of the substring together.
+*/
+
 package LC459
 
 

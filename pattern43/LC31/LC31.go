@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #31: Next Permutation
+Difficulty: Medium
+
+Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
+*/
+
 package LC31
 
 import "fmt"

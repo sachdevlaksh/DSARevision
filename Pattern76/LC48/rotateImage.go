@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #48: Rotate Image
+Difficulty: Medium
+
+You are given an n x n 2D matrix representing an image. Rotate the image by 90 degrees (clockwise).
+*/
+
 package LC48
 
 func RotateImage(matrix [][]int)  {

@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #62: Unique Paths
+Difficulty: Medium
+
+There is a robot on an m x n grid. The robot is initially at the top-left corner (grid[0][0]). The robot tries to move to the bottom-right corner (grid[m-1][n-1]).
+*/
+
 package LC62
 
 func uniquePaths(m int, n int) int {

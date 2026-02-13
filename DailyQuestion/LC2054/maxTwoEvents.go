@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #2054: Two Best Non-Overlapping Events
+Difficulty: Medium
+
+You are given a 0-indexed 2D integer array events where events[i] = [startTimei, endTimei, valuei]. You can attend at most 2 non-overlapping events whose values are maximized.
+*/
+
 package LC2054
 
 import (

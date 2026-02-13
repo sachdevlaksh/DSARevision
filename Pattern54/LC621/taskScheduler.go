@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #621: Task Scheduler
+Difficulty: Medium
+
+Given a characters array tasks containing only uppercase English letters A through Z and a non-negative integer n. Each task is executed in one unit of time, and then a cooldown period of n units is required before repeating the same task again.
+*/
+
 package LC621
 
 func leastInterval(tasks []byte, n int) int {

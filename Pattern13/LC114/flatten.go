@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #114: Flatten Binary Tree to Linked List
+Difficulty: Medium
+
+Given the root of a binary tree, flatten the tree into a 'linked list': The 'linked list' should use the same TreeNode class where the right child pointer points to the next node in the list and the left child pointer is always null.
+*/
+
 package LC114
 
 type TreeNode struct {

@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #63: Unique Paths II
+Difficulty: Medium
+
+You are given an m x n integer array grid where grid[i][j] = 1 represents an obstacle and grid[i][j] = 0 represents an empty cell. Return the number of unique paths from top-left to bottom-right.
+*/
+
 package LC63
 
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {

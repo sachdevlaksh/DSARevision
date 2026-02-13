@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #1970: Last Day Where You Can Still Cross
+Difficulty: Hard
+
+There is a 1-based binary matrix where 0 represents water and 1 represents land. Find the last day you can cross from the top to the bottom by walking only on land cells.
+*/
+
 package LC1970
 func latestDayToCross(row int, col int, cells [][]int) int {
 

@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #901: Online Stock Span
+Difficulty: Medium
+
+Design an algorithm that collects daily price quotes for some stock and returns the span of that stock's price for the current day.
+*/
+
 package LC901
 
 type pair struct {

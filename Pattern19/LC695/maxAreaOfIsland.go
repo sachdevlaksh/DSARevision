@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #695: Max Area of Island
+Difficulty: Medium
+
+You are given an m x n binary matrix grid where 1 represents land and 0 represents water. An island is a group of 4-directionally connected 1's not connected to any other 1's.
+*/
+
 package LC695
 
 func maxAreaOfIsland(grid [][]int) int {

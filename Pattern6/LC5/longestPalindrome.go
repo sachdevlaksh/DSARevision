@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #5: Longest Palindromic Substring
+Difficulty: Medium
+
+Given a string s, return the longest palindromic substring in s.
+*/
+
 package LC5
 
 func longestPalindrome(s string) string {

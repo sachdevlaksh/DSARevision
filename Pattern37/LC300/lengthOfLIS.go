@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #300: Longest Increasing Subsequence
+Difficulty: Medium
+
+Given an integer array nums, return the length of the longest strictly increasing subsequence.
+*/
+
 package LC300
 
 func lengthOfLIS(nums []int) int {

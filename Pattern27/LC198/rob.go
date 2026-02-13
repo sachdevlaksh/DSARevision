@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #198: House Robber
+Difficulty: Medium
+
+You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the catch is that adjacent houses have security systems connected.
+*/
+
 package LC198
 
 func rob(nums []int) int {

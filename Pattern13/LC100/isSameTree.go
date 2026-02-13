@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #100: Same Tree
+Difficulty: Easy
+
+Given the roots of two binary trees p and q, write a function to check if they are the same or not.
+*/
+
 package LC100
 
 import (

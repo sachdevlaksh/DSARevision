@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #214: Shortest Palindrome
+Difficulty: Hard
+
+You are given a string s. You can convert s to a palindrome by adding characters in front of it. Find and return the shortest palindrome you can create by adding characters in front of s.
+*/
+
 package LC214
 
 import (

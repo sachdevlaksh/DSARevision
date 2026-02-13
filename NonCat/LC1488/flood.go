@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #1488: Avoid Flood in The City
+Difficulty: Medium
+
+Your country has an infinite number of lakes in a line. You are given an integer array rains where rains[i] > 0 means there will be rains on day i for a lake rains[i].
+*/
+
 package LC1488
 
 import (

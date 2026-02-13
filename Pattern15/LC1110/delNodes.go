@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #1110: Delete Nodes And Return Forest
+Difficulty: Medium
+
+Given the root of a binary tree, each node in the tree has a distinct value. After deleting all nodes with a value in del, we are left with a forest (a disjoint union of trees).
+*/
+
 package LC1110
 
 type TreeNode struct {

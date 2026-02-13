@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #37: Sudoku Solver
+Difficulty: Hard
+
+Write a program to solve a Sudoku puzzle by filling the empty cells. A sudoku solution must satisfy the following rules: Each row must contain the digits 1-9 without repetition. Each column must contain the digits 1-9 without repetition.
+*/
+
 package LC37
 
 func solveSudoku(board [][]byte) {

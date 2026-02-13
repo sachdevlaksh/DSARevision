@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #27: Remove Element
+Difficulty: Easy
+
+Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The relative order of the elements may be changed.
+*/
+
 package LC27
 
 func removeElement(nums []int, val int) int {

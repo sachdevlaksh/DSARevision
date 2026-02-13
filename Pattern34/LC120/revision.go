@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #120: Triangle
+Difficulty: Medium
+
+Given a triangle array, return the minimum path sum from top to bottom. For each step, you may move to an adjacent number of the row below. More formally, if you are on index j in the current row.
+*/
+
 package LC120
 
 import "math"

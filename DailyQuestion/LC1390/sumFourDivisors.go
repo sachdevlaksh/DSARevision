@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #1390: Four Divisors
+Difficulty: Medium
+
+Given an integer array nums, return the sum of divisors of each number. A divisor is an integer x such that x evenly divides n. Return the sum of divisors that have exactly four divisors.
+*/
+
 package main
 
 func sumFourDivisors(nums []int) int {

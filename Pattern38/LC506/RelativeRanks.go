@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #506: Relative Ranks
+Difficulty: Easy
+
+You are given an integer array score of size n where score[i] is the score of the ith athlete in a competition. All the scores are guaranteed to be unique. The athletes are placed based on their scores, where the athlete with the highest score gets first place, the athlete with the second highest score gets second place, and so on.
+*/
+
 package LC506
 
 import (

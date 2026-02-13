@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #56: Merge Intervals
+Difficulty: Medium
+
+Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals.
+*/
+
 package LC56
 
 import "sort"

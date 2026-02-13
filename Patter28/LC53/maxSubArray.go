@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #53: Maximum Subarray
+Difficulty: Medium
+
+Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+*/
+
 package LC53
 
 import "math"

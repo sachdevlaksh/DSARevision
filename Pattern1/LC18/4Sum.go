@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #18: 4Sum
+Difficulty: Medium
+
+Given an array nums of n integers, return all unique quadruplets [nums[a], nums[b], nums[c], nums[d]] such that nums[a] + nums[b] + nums[c] + nums[d] == target.
+*/
+
 package LC18
 
 import "sort"

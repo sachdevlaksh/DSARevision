@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #230: Kth Smallest Element in a BST
+Difficulty: Medium
+
+Given the root of a binary search tree, and an integer k, return the kth smallest value (1-indexed) of all the values of the nodes in the tree.
+*/
+
 package LC230
 
 type TreeNode struct {

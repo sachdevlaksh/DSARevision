@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #904: Fruit Into Baskets
+Difficulty: Medium
+
+You are visiting a farm that has unlimited rows of fruit trees arranged in a straight line. Each row has a name label by an integer. You have two baskets and each basket can carry unlimited amount of fruit, but you want each basket to only carry one type of fruit.
+*/
+
 package LC904
 
 func totalFruit(fruits []int) int {

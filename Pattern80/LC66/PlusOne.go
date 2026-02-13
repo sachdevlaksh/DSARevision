@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #66: Plus One
+Difficulty: Easy
+
+You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order.
+*/
+
 package LC66
 func PlusOne(nums []int) []int {
 	n := len(nums)

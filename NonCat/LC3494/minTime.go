@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #3494: Maximum Sum of Non-Overlapping Subarrays With Constraint
+Difficulty: Hard
+
+Given an array nums and an integer minK, find the maximum sum of a subarray while satisfying the following constraint: Every element in the subarray must be greater than or equal to minBit.
+*/
+
 package LC3494
 
 import "math"

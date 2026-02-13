@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #77: Combinations
+Difficulty: Medium
+
+Given two integers n and k, return all possible combinations of k numbers chosen from the range [1, n].
+*/
+
 package LC77
 
 func Combine(n int, k int) [][]int {

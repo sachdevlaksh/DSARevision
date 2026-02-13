@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #72: Edit Distance
+Difficulty: Hard
+
+Given two strings word1 and word2, return the minimum number of operations required to convert word1 to word2. You have three operations permitted on a word: Insert a character, Delete a character, Replace a character.
+*/
+
 package LC72
 
 func minDistance(word1 string, word2 string) int {

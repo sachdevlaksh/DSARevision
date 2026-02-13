@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #167: Two Sum II - Input Array Is Sorted
+Difficulty: Medium
+
+Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number.
+*/
+
 package LC167
 
 func twoSum(numbers []int, target int) []int {

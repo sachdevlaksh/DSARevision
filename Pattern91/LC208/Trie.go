@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #208: Implement Trie (Prefix Tree)
+Difficulty: Medium
+
+A trie (pronounced as 'try') or prefix tree is a tree data structure used to efficiently store and retrieve keys in a dataset of strings. Implement the Trie class.
+*/
+
 package LC208
 
 type TrieNode struct {

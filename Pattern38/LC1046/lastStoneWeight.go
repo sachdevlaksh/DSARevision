@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #1046: Last Stone Weight
+Difficulty: Easy
+
+You are given an array of integers stones where stones[i] is the weight of the ith stone. On each turn, choose any two stones and smash them together. Suppose the stones have weights x and y with x <= y.
+*/
+
 package LC1046
 
 import "container/heap"

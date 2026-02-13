@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #104: Maximum Depth of Binary Tree
+Difficulty: Easy
+
+Given the root of a binary tree, return its maximum depth. A binary tree's maximum depth is the length of the longest path from the root to a leaf node.
+*/
+
 package LC104
 
 type TreeNode struct {

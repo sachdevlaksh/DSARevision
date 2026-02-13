@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #3147: Taking Maximum Energy From The Mystic Dungeon
+Difficulty: Medium
+
+In a mystic dungeon, n magicians are standing in a line. Each magician has an attack power denoted by a[i]. Your task is to collectthe maximum energy possible.
+*/
+
 package LC3147
 
 import "math"

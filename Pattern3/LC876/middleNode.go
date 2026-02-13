@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #876: Middle of the Linked List
+Difficulty: Easy
+
+Given the head of a singly linked list, return the middle node of the linked list. If there are two middle nodes, return the second middle node.
+*/
+
 package LC876
 
 type ListNode struct {

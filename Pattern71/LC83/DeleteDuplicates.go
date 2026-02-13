@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #83: Remove Duplicates from Sorted List
+Difficulty: Easy
+
+Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.
+*/
+
 package LC83
 
 ///**

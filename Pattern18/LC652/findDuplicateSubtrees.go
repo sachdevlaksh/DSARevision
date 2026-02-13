@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #652: Find Duplicate Subtrees
+Difficulty: Medium
+
+Given the root of a binary tree, return all duplicate subtrees. For each kind of duplicate subtree, you only need to return the root node of any one of them.
+*/
+
 package LC652
 
 import (

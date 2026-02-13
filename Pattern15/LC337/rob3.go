@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #337: House Robber III
+Difficulty: Medium
+
+The thief has found himself a new place for his thievery again. There is only one entrance to this area, called root. Besides the root, each house has one parent house. After a tour, the smart thief realized that all houses in this place form a binary tree.
+*/
+
 package LC337
 
 type TreeNode struct {

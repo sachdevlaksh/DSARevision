@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #460: LFU Cache
+Difficulty: Hard
+
+Design and implement a data structure for a Least Frequently Used (LFU) cache. Implement the LFUCache class.
+*/
+
 package LC460
 
 type Node struct {

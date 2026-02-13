@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #78: Subsets
+Difficulty: Medium
+
+Given an integer array nums of unique elements, return all the possible subsets (the power set). The solution set must not contain duplicate subsets. Return the solution in any order.
+*/
+
 package LC78
 
 func Subsets(nums []int) [][]int {

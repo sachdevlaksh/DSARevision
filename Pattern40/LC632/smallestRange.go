@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #632: Smallest Range Covering Elements from K Lists
+Difficulty: Hard
+
+You have k lists of sorted integers in non-decreasing order. Find the smallest range that includes at least one number from each of the k lists.
+*/
+
 package LC632
 
 import (

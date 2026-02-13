@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #1143: Longest Common Subsequence
+Difficulty: Medium
+
+Given two strings text1 and text2, return the length of their longest common subsequence. If there is no common subsequence, return 0.
+*/
+
 package LC1143
 
 func longestCommonSubsequence(text1 string, text2 string) int {

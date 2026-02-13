@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #686: Repeated String Match
+Difficulty: Easy
+
+Given two strings a and b, return the minimum number of times you should repeat string a so that string b is a substring of it. If b can never be a substring of a no matter how many times you repeat it, return -1.
+*/
+
 package LC686
 
 func repeatedStringMatch(a string, b string) int {

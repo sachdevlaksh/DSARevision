@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #417: Pacific Atlantic Water Flow
+Difficulty: Medium
+
+There is an m x n rectangular island that borders both the Pacific and Atlantic oceans. The Pacific Ocean touches the island's left and top edges, and the Atlantic Ocean touches the island's right and bottom edges.
+*/
+
 package LC417
 
 func PacificAtlantic(heights [][]int) [][]int {

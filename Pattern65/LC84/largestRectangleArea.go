@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #84: Largest Rectangle in Histogram
+Difficulty: Hard
+
+Given an array of integers heights representing the histogram's bar height where the width of each bar is 1, return the area of the largest rectangle in the histogram.
+*/
+
 package LC84
 
 func largestRectangleArea(heights []int) int {

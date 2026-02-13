@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #110: Balanced Binary Tree
+Difficulty: Easy
+
+Given a binary tree, determine if it is height-balanced. A height-balanced binary tree is a binary tree in which the depth of the two subtrees never differs by more than one.
+*/
+
 package LC110
 
 import "math"

@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #2483: Minimum Penalty for a Shop
+Difficulty: Medium
+
+You are given the closing time for a shop, represented by a string s of length 10 in the format 'HH:MM'. You want to find the latest time when the shop should close such that the penalty is minimized.
+*/
+
 package LC2483
 
 import "math"

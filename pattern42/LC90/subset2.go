@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #90: Subsets II
+Difficulty: Medium
+
+Given an integer array nums that may contain duplicates, return all possible subsets (the power set). The solution set must not contain duplicate subsets.
+*/
+
 package LC90
 
 import "sort"

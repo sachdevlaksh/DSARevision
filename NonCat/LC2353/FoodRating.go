@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #2353: Design a Food Rating System
+Difficulty: Medium
+
+Design a food rating system that can do the following: Modify the rating of a food. Return the highest-rated food for a cuisine.
+*/
+
 package LC2353
 
 import (

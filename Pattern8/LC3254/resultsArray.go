@@ -1,3 +1,10 @@
+/*
+LeetCode Problem #3254: Find the Power of K-Size Subarrays - I
+Difficulty: Medium
+
+You are given an array of integers nums of size n, and a positive integer k. Find the power of each subarray of size k.
+*/
+
 package LC3254
 
 func resultsArray(nums []int, k int) []int {
